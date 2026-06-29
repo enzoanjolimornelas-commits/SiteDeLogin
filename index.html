@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="login">
-        <input type="email" id="email" name="email" placeholder="Digite o seu email...">
-        <input type="password" id="email" name="email" placeholder="Digite a sua senha...">
+    <div id="container-login">
+        <div id="login">
+            <img src="imagens/person_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="Figura de uma pessoa" id="person">
+            <p>Email</p>
+            <input type="email" id="email" name="email" placeholder="Digite o seu email..."><br>
+            <p>Senha</p>
+            <input type="password" id="email" name="email" placeholder="Digite a sua senha..."><br>
+            <button onclick="alert('Login feito com sucesso!')" id="confirmation">Login</button>
+        </div>
     </div>
 </body>
 </html>

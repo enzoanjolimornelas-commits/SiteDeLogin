@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #002756;
+}
+
+#container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#login {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px;
+    margin: auto;
+    background-color: #0081C9;
+    color: #01082D;
+}
+
+#person {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+p{
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+#confirmation {
+    display: block;
+    margin: 0 auto;
+    padding: 0.3rem;
+    border-radius: 8px;
+    background-color: #ED7700;
+}
+
+#confirmation:hover {
+    background-color: #ed7600e7;
+}
